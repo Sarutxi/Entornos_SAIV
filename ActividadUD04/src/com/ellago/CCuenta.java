@@ -13,11 +13,8 @@ package com.ellago;
 
 public class CCuenta {
 
-<<<<<<< HEAD
-
-=======
 //Cimentario por Iván
->>>>>>> branch 'main' of https://github.com/Sarutxi/UD4_SAIV.git
+
     private String nombre;
     private String cuenta;
     private double saldo;
