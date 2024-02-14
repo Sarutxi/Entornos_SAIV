@@ -4,6 +4,11 @@
  */
 
 package com.ellago;
+/**
+ * 
+ * @author Ivan y Sara
+ *
+ */
 
 
 public class CCuenta {
