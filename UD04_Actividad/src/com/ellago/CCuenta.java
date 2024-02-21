@@ -10,7 +10,7 @@ package com.ellago;
  *
  */
 
-//Holaaa
+
 
 public class CCuenta {
 
@@ -66,6 +66,7 @@ public class CCuenta {
         saldo = saldo - cantidad;
         
     }
+
 	public String getNombre() {
 		return nombre;
 	}
@@ -96,6 +97,6 @@ public class CCuenta {
 
 	public void setTipoInterés(double tipoInterés) {
 		this.tipoInterés = tipoInterés;
+	}
 	
     }
-}
