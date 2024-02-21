@@ -19,7 +19,13 @@ public class Main {
   //Soy Iván
         //Y yo Sara
 
-        miCuenta = new CCuenta("Antonio López","1000-2365-85-1230456789",2500,0);
+        operativaCuenta(null);
+    }
+
+	public static void operativaCuenta(float cantidad) {
+		CCuenta miCuenta;
+		double saldoActual;
+		miCuenta = new CCuenta("Antonio López","1000-2365-85-1230456789",2500,0);
         saldoActual = miCuenta.estado();
         System.out.println("El saldo actual es"+ saldoActual );
 
@@ -34,5 +40,5 @@ public class Main {
         } catch (Exception e) {
             System.out.print("Fallo al ingresar");
         }
-    }
+	}
 }
